@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmenu"
+    tools:context=".NonemergencyActivity">
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/kolom2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="CPR"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/vector"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="70dp"
+        android:id="@+id/btn1"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text1"
+        android:background="@drawable/kolom2"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Asma"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/vector"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="85dp"/>
+
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text2"
+        android:background="@drawable/kolom2"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Kecelakaan"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/vector"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="155dp" />
+
+    <EditText
+        android:id="@+id/text4"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text3"
+        android:background="@drawable/kolom2"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Serangan Jantung"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/vector"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="225dp" />
+
+    <EditText
+        android:id="@+id/text5"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text4"
+        android:background="@drawable/kolom2"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Tenggelam"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/vector"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="295dp" />
+
+    <EditText
+        android:id="@+id/text6"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text5"
+        android:background="@drawable/kolom2"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Sakit Kepala"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/vector"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="365dp"/>
+
+    <EditText
+        android:id="@+id/text7"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text6"
+        android:background="@drawable/kolom2"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Pendarahan Dan Luka"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/vector"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="435dp"/>
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text7"
+        android:background="@drawable/kolom2"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Luka Bakar"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/vector"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="505dp"
+        android:layout_marginRight="70dp" />
+
+</RelativeLayout>
